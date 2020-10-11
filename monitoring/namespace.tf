@@ -31,7 +31,7 @@ resource kubernetes_namespace ibm_observe {
 data kubernetes_secret image_pull_secret {
   count = length(local.image_pull_secrets)
   metadata {
-    name = "default-${element(local.image_pull_secrets, count.index)}"
+    name = element(local.image_pull_secrets, count.index)
   }
 }
 
