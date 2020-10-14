@@ -2,8 +2,6 @@
 
 This module will automatically deploy Logging and Mornitoring agents onto your Kubernetes on VPC Cluster. You can either bring your own logging and monitoring instances or provision them with this architecture. This can be run on [IBM Schematics](https://cloud.ibm.com/schematics) or in your local environment.
 
-![Logging Monitoring](../.docs/logging-monitoring-basic.png)
-
 ---
 
 ### Table of Contents
